@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="top"
+    android:background="@drawable/froena1"
+    tools:context=".MainActivity" >
+    
+    <ScrollView
+        android:id="@+id/scrollview"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent">
+	    
+        <RelativeLayout
+	 	   android:layout_width="match_parent"
+	 	   android:layout_height="match_parent" >
+    <Button
+        android:id="@+id/btnUsers"
+        style="@style/button_text"
+        android:layout_below="@+id/btnAddUser1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/buttons"
+        android:drawableLeft="@drawable/btn_image_users"
+        android:text="@string/btnUsers" />
+
+    <Button
+        android:id="@+id/btnInfo"
+        style="@style/button_text"
+        android:layout_below="@+id/btnUsers"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/buttons"
+        android:drawableLeft="@drawable/btn_image_info"
+        android:text="@string/btnInfo" />
+
+    <Button
+        android:id="@+id/btnAddUser1"
+        style="@style/button_text"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/buttons"
+        android:drawableLeft="@drawable/btn_image_moria"
+        android:text="@string/btnAddUser1" />
+
+    <Button
+		android:id="@+id/btnRate"
+		style="@style/button_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+		android:background="@drawable/buttons"
+        android:layout_below="@+id/btnInfo"
+		android:text="@string/btnRate" />
+    </RelativeLayout>
+    </ScrollView>
+    
+    <com.google.ads.AdView
+        android:id="@+id/adView"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		ads:adUnitId="ca-app-pub-1937046620919052/3087017491"
+		ads:adSize="BANNER"
+		ads:testDevices="TEST_EMULATOR, TEST_DEVICE_ID"
+		ads:loadAdOnCreate="true" />
+
+    
+
+</RelativeLayout>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:background="@drawable/froena1">
+
+    <LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:orientation="vertical" >
+	    
+	    <TextView
+	        android:id="@+id/textViewName"
+	        style="@style/textMoria"
+		    android:layout_width="300dip"
+	 	    android:layout_gravity="center"
+	        android:layout_height="wrap_content"
+	        android:text="Όνομα μαθητή" />
+	    <TextView
+	        android:id="@+id/textViewKat"
+	        style="@style/textMoria"
+	  		android:layout_gravity="center"
+		    android:layout_width="300dip"
+	        android:layout_height="wrap_content"
+	        android:text="κατεύθυνση" />
+	    
+	    <LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:orientation="horizontal" >
+	    
+	        <TextView
+		        android:id="@+id/textViewEpil"
+		        style="@style/textMoria"
+		        android:layout_width="150dip"
+		        android:layout_height="wrap_content"
+		        android:text="επιλογής" />
+		    <TextView
+		        android:id="@+id/textViewAoth"
+		        style="@style/textMoria"
+		        android:layout_width="150dip"
+		        android:layout_height="wrap_content"
+		        android:text="αοθ" />
+	    </LinearLayout>
+	    
+		<TextView
+		        android:id="@+id/textViewBP"
+		        style="@style/textMoria"
+		        android:gravity="center"
+		        android:layout_width="300dip"
+		        android:layout_height="wrap_content"
+		        android:text="βαθμος προσβασης" />
+    </LinearLayout>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<LinearLayout
+	    android:paddingTop="10dip"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:orientation="horizontal" >
+	    
+		<TextView
+		        android:id="@+id/textPedio1"
+		        style="@style/textMoria"
+		        android:layout_width="170dip"
+		        android:layout_height="wrap_content"
+		        android:text="@string/textpedio1" />
+		<TextView
+		        android:id="@+id/textViewPedio1"
+		        style="@style/textMoria"
+		        android:layout_width="90dip"
+		        android:layout_height="wrap_content"
+		        android:text="" />
+	    </LinearLayout>
+	    <LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:orientation="horizontal" >
+	    
+		<TextView
+			android:id="@+id/textPedio2"
+			style="@style/textMoria"
+		    android:layout_width="170dip"
+			android:layout_height="wrap_content"
+			android:text="@string/textpedio2" />
+		<TextView
+			android:id="@+id/textViewPedio2"
+			style="@style/textMoria"
+		    android:layout_width="90dip"
+			android:layout_height="wrap_content"
+			android:text="" />
+	    </LinearLayout>
+	    <LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:orientation="horizontal" >
+	    
+	        <TextView
+		        android:id="@+id/textPedio3"
+		        style="@style/textMoria"
+		        android:layout_width="170dip"
+		        android:layout_height="wrap_content"
+		        android:text="@string/textpedio3" />
+		    <TextView
+		        android:id="@+id/textViewPedio3"
+		        style="@style/textMoria"
+		        android:layout_width="90dip"
+		        android:layout_height="wrap_content"
+		        android:text="" />
+	    </LinearLayout>
+	    <LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:orientation="horizontal" >
+	    
+	        <TextView
+		        android:id="@+id/textPedio4"
+		        style="@style/textMoria"
+		        android:layout_width="170dip"
+		        android:layout_height="wrap_content"
+		        android:text="@string/textpedio4" />
+		    <TextView
+		        android:id="@+id/textViewPedio4"
+		        style="@style/textMoria"
+		        android:layout_width="90dip"
+		        android:layout_height="wrap_content"
+		        android:text="" />
+	    </LinearLayout>
+	    <LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:orientation="horizontal" >
+	    
+	        <TextView
+		        android:id="@+id/textPedio5"
+		        style="@style/textMoria"
+		        android:layout_width="170dip"
+		        android:layout_height="wrap_content"
+		        android:text="@string/textpedio5" />
+		    <TextView
+		        android:id="@+id/textViewPedio5"
+		        style="@style/textMoria"
+		        android:layout_width="90dip"
+		        android:layout_height="wrap_content"
+		        android:text="" />
+	    </LinearLayout>
+	    
+	    
+	    <LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:orientation="horizontal" >
+	    
+			<Button
+			    android:id="@+id/btnSave"
+		        style="@style/button_text"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_centerHorizontal="true"
+		        android:background="@drawable/buttons"
+			    android:layout_marginTop="60dp"
+			    android:text="@string/btnSave" />
+	</LinearLayout>
+		
+	<com.google.ads.AdView
+        android:id="@+id/adView"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		ads:adUnitId="ca-app-pub-1937046620919052/3087017491"
+		ads:adSize="BANNER"
+		ads:testDevices="TEST_EMULATOR, TEST_DEVICE_ID"
+		ads:loadAdOnCreate="true" />
+</LinearLayout>

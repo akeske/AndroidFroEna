@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="fb">Βρείτε μας στο fb</string>
+    <string name="tel">Τηλέφωνο επικοινωνίας</string>
+    
+    <string name="toastSave">Αποθηκεύτηκε ο μαθητής στη βάση δεδομένων.</string>
+    <string name="toastChange">Αποθηκεύτηκαν οι αλλαγές στη βάση δεδομένων.</string>
+    
+    <string name="app_name">Φροντιστήριο ΕΝΑ</string>
+    <string name="textName">Όνομα</string>
+    <string name="textKat">Κατεύθυνση</string>
+    <string name="textEpil">Μάθημα επιλογής</string>
+    <string name="checkAoth">Αρχές Οικονομικής Θεωρίας</string>
+    <string name="btnAddUser1">Προσθήκη χρήστη</string>
+    <string name="btnAdduser2">Επόμενο βήμα</string>
+    <string name="btnCount">Yπολογισμός μορίων</string>
+    <string name="btnInfo">Πληροφορίες</string>
+    <string name="btnUsers">Χρήστες</string>
+    <string name="btnDelete">Διαγραφή</string>
+    <string name="btnSave">Αποθήκευση μαθητή</string>
+    <string name="btnRate">Αξιολογήστε μας</string>
+    
+    <string name="kat_choose">Επιλέξτε κατεύθυνση</string>
+    <string-array name="kat_array">
+        <item>Θετική</item>
+        <item>Τεχνολογική</item>
+        <item>Θεωρητική</item>
+    </string-array>
+    
+    <string-array name="epilogis_array">
+        <item>Στατιστική (ΓΠ)</item>
+        <item>Ιστορία (ΓΠ)</item>
+        <item>Βιολογία (ΓΠ)</item>
+        <item>Φυσική (ΓΠ)</item>
+    </string-array>
+    
+    <string name="thetiki">Θετική</string>
+    <string name="texnologiki">Τεχνολογική</string>
+    <string name="thewritiki">Θεωρητική</string>
+    
+    <string name="mathimatika">Μαθηματικά</string>
+    <string name="fysikh">Φυσική</string>
+    <string name="xhmeia">Χημεία</string>
+    <string name="biologia">Βιολογία</string>
+    <string name="ae">Ανάπτ. εφαρμ.</string>
+    <string name="aode">ΑΟΔΕ</string>
+    
+    <string name="arxaiael">Αρχαία ελληνικά</string>
+    <string name="istoria">Ιστορία</string>
+    <string name="nl">Νεοελληνική λογ.</string>
+    <string name="lat">Λατινικά</string>
+    
+    <string name="ng">Νεολ. γλώσσα (ΓΠ)</string>
+    <string name="statistiki">Στατιστική (ΓΠ)</string>
+    <string name="istoriagp">Ιστορία (ΓΠ)</string>
+    <string name="biogn">Βιολογία (ΓΠ)</string>
+    <string name="fysgp">Φυσική (ΓΠ)</string>
+    
+    <string name="aoth">ΑΟΘ</string>
+    
+    <string name="textpedio1">1ο επιστημ. πεδίο</string>
+    <string name="textpedio2">2ο επιστημ. πεδίο</string>
+    <string name="textpedio3">3ο επιστημ. πεδίο</string>
+    <string name="textpedio4">4ο επιστημ. πεδίο</string>
+    <string name="textpedio5">5ο επιστημ. πεδίο</string>
+
+</resources>

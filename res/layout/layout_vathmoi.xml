@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+    android:gravity="top"
+    android:background="@drawable/froena1">
+    
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:orientation="horizontal" >
+	
+	    <TextView
+	        android:id="@+id/textViewMathArxaia"
+      		style="@style/textMoria"
+	        android:layout_height="wrap_content" />
+	    <EditText
+	        android:id="@+id/editTextMath1"
+      		style="@style/textMoria"
+      		android:maxLength="2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="προφ"
+	        android:ems="2"
+	        android:inputType="number"
+	        android:nextFocusDown="@+id/editTextMath2" >
+	    </EditText>
+	    <EditText
+	        android:id="@+id/editTextMath2"
+      		style="@style/textMoria"
+      		android:maxLength="2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="προφ"
+	        android:ems="2"
+	        android:inputType="number"
+			android:nextFocusDown="@+id/editTextMath3" >
+	    </EditText>
+	    <EditText
+	        android:id="@+id/editTextMath3"
+      		style="@style/textMoria"
+      		android:maxLength="4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="γραπτά"
+	        android:ems="4"
+	        android:inputType="numberDecimal"
+			android:nextFocusDown="@+id/editTextFys1" >
+	    </EditText>
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:orientation="horizontal" >
+	
+	    <TextView
+	        android:id="@+id/textViewFysIstoria"
+      		style="@style/textMoria"
+	        android:layout_height="wrap_content" />
+	    <EditText
+	        android:id="@+id/editTextFys1"
+      		style="@style/textMoria"
+      		android:maxLength="2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="προφ"
+	        android:ems="2"
+	        android:inputType="number"
+	        android:nextFocusDown="@+id/editTextFys2" >
+	    </EditText>
+	    <EditText
+	        android:id="@+id/editTextFys2"
+      		style="@style/textMoria"
+      		android:maxLength="2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="προφ"
+	        android:ems="2"
+	        android:inputType="number"
+			android:nextFocusDown="@+id/editTextFys3" >
+	    </EditText>
+	    <EditText
+	        android:id="@+id/editTextFys3"
+      		style="@style/textMoria"
+      		android:maxLength="4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="γραπτά"
+	        android:ems="4"
+	        android:inputType="numberDecimal"
+			android:nextFocusDown="@+id/editTextXhm1" >
+	    </EditText>
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:orientation="horizontal" >
+	
+	    <TextView
+	        android:id="@+id/textViewXhmLogAe"
+      		style="@style/textMoria"
+	        android:layout_height="wrap_content" />
+	    <EditText
+	        android:id="@+id/editTextXhm1"
+      		style="@style/textMoria"
+      		android:maxLength="2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="προφ"
+	        android:ems="2"
+	        android:inputType="number"
+	        android:nextFocusDown="@+id/editTextXhm2" >
+	    </EditText>
+	    <EditText
+	        android:id="@+id/editTextXhm2"
+      		style="@style/textMoria"
+      		android:maxLength="2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="προφ"
+	        android:ems="2"
+	        android:inputType="number"
+			android:nextFocusDown="@+id/editTextXhm3" >
+	    </EditText>
+	    <EditText
+	        android:id="@+id/editTextXhm3"
+      		style="@style/textMoria"
+      		android:maxLength="4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="γραπτά"
+	        android:ems="4"
+	        android:inputType="numberDecimal"
+			android:nextFocusDown="@+id/editTextBio1" >
+	    </EditText>
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:orientation="horizontal" >
+	
+	    <TextView
+	        android:id="@+id/textViewBioLatinikaAode"
+      		style="@style/textMoria"
+	        android:layout_height="wrap_content" />
+	    <EditText
+	        android:id="@+id/editTextBio1"
+      		style="@style/textMoria"
+      		android:maxLength="2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="προφ"
+	        android:ems="2"
+	        android:inputType="number"
+	        android:nextFocusDown="@+id/editTextBio2" >
+	    </EditText>
+	    <EditText
+	        android:id="@+id/editTextBio2"
+      		style="@style/textMoria"
+      		android:maxLength="2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="προφ"
+	        android:ems="2"
+	        android:inputType="number"
+			android:nextFocusDown="@+id/editTextBio3" >
+	    </EditText>
+	    <EditText
+	        android:id="@+id/editTextBio3"
+      		style="@style/textMoria"
+      		android:maxLength="4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="γραπτά"
+	        android:ems="4"
+	        android:inputType="numberDecimal"
+			android:nextFocusDown="@+id/editTextNG1" >
+	    </EditText>
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:orientation="horizontal" >
+	
+	    <TextView
+	        android:id="@+id/textViewNG"
+      		style="@style/textMoria"
+	        android:layout_height="wrap_content" />
+	    <EditText
+	        android:id="@+id/editTextNG1"
+      		style="@style/textMoria"
+      		android:maxLength="2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="προφ"
+	        android:ems="2"
+	        android:inputType="number"
+	        android:nextFocusDown="@+id/editTextNG2" >
+	    </EditText>
+	    <EditText
+	        android:id="@+id/editTextNG2"
+      		style="@style/textMoria"
+      		android:maxLength="2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="προφ"
+	        android:ems="2"
+	        android:inputType="number"
+			android:nextFocusDown="@+id/editTextNG3" >
+	    </EditText>
+	    <EditText
+	        android:id="@+id/editTextNG3"
+      		style="@style/textMoria"
+      		android:maxLength="4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="γραπτά"
+	        android:ems="4"
+	        android:inputType="numberDecimal"
+	        android:nextFocusDown="@+id/editTextMathEpil1" >
+	    </EditText>
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:orientation="horizontal" >
+	
+	    <TextView
+	        android:id="@+id/textViewMathEpil"
+      		style="@style/textMoria"
+	        android:layout_height="wrap_content" />
+	    <EditText
+	        android:id="@+id/editTextMathEpil1"
+      		style="@style/textMoria"
+      		android:maxLength="2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="προφ"
+	        android:ems="2"
+	        android:inputType="number"
+	        android:nextFocusDown="@+id/editTextMathEpil2" >
+	    </EditText>
+	    <EditText
+	        android:id="@+id/editTextMathEpil2"
+      		style="@style/textMoria"
+      		android:maxLength="2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="προφ"
+	        android:ems="2"
+	        android:inputType="number"
+			android:nextFocusDown="@+id/editTextMathEpil3" >
+	    </EditText>
+	    <EditText
+	        android:id="@+id/editTextMathEpil3"
+      		style="@style/textMoria"
+      		android:maxLength="4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="γραπτά"
+	        android:ems="4"
+	        android:inputType="numberDecimal"
+			android:nextFocusDown="@+id/editTextAOTH1" >
+	    </EditText>
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:id="@+id/linearAoth"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:orientation="horizontal" >
+	
+	    <TextView
+	        android:id="@+id/textViewAOTH"
+      		style="@style/textMoria"
+	        android:layout_height="wrap_content" />
+	    <EditText
+	        android:id="@+id/editTextAOTH1"
+      		style="@style/textMoria"
+      		android:maxLength="2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="προφ"
+	        android:ems="2"
+	        android:inputType="number"
+	        android:nextFocusDown="@+id/editTextAOTH2" >
+	    </EditText>
+	    <EditText
+	        android:id="@+id/editTextAOTH2"
+      		style="@style/textMoria"
+      		android:maxLength="2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="προφ"
+	        android:ems="2"
+	        android:inputType="number"
+			android:nextFocusDown="@+id/editTextAOTH3" >
+	    </EditText>
+	    <EditText
+	        android:id="@+id/editTextAOTH3"
+      		style="@style/textMoria"
+      		android:maxLength="4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="γραπτά"
+	        android:ems="4"
+	        android:inputType="numberDecimal" >
+	    </EditText>
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:orientation="horizontal" >
+	    
+		<Button
+		    android:id="@+id/btnResults"
+	        style="@style/button_text"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@+id/linearAoth"
+		    android:layout_centerHorizontal="true"
+	        android:background="@drawable/buttons"
+		    android:layout_marginTop="60dp"
+		    android:text="@string/btnCount" />
+	</LinearLayout>
+
+</LinearLayout>
